@@ -328,9 +328,6 @@ img {
     fill: #FFFFFF;
 }
 
-
-
-
 .team-titel {
     font-weight: bold;
     font-size: 36px;
@@ -381,9 +378,7 @@ img {
     margin-bottom: 16px;
 }
 /* Clients section */
-.clients{
- 
-}
+
 .clients-block {
     width: 170px;
     height: 92px;
@@ -442,7 +437,6 @@ img {
 
 .footer {
     background-color: #2F303A;
-    padding-top: 60px;
     padding-bottom: 60px;
 }
 
@@ -500,11 +494,14 @@ img {
 }
 
 .footer-container-left {
-    display: inline-block
+    display: inline-block;
+    padding-top: 66px;
+    
 }
 .footer-container-right {
-    display: inline-block
-
+    display: inline-block;  
+    margin-left: 70px;
+     
 }
 
 .footer-titel{
@@ -517,15 +514,13 @@ img {
     text-transform: uppercase;
     margin-bottom: 20px;
     color: #FFFFFF; 
-
  }
 
 .footer-social-list {
     display: inline-flex;
     justify-content: center;
-    
-
 }
+
 .footer-social-item + .footer-social-item {
     margin-left: 10px ;
 }
